@@ -10,7 +10,7 @@ All services with files (that I can safely share without compromising system sec
 
 | Service | Description | Config file |
 | :-- | :-- | :-- |
-| **Caddy** | Reverse proxy server that works with Pi-hole | [`Caddyfile`](caddy/Caddyfile) |
+| **Caddy** | Reverse proxy server that works with Pi-hole | [`Caddyfile`](caddy/Caddyfile.JSON) |
 | **Jellyfin** | Media server library primarily for eBooks and home videos | [`docker-compose.yml`](jellyfin/docker-compose.yml) |
 | **Navidrome** | Music streaming server | [`docker-compose.yml`](navidrome/docker-compose.yml) |
 | **Nextcloud** | Network file sharing service used to upload new things to Jellyfin and Navidrome from the web | [`docker-compose.yml`](nextcloud/docker-compose.yml) |
