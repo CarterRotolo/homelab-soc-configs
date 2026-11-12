@@ -2,7 +2,7 @@
 
 A collection of various configuration files that are used in my homelab's services. Files range from Docker Compose files to JSON configuration files.
 
-All services with files (that I can safely share without compromising system security) are stored in a folder with that service's name. Some files have been altered to prevent things like IP addressing schemes from being leaked, but are otherwise unchanged.
+All services with files (that I can safely share without compromising system security) are stored in a folder with that service's name.
 
 ---
 
