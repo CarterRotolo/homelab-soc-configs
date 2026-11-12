@@ -1,0 +1,12 @@
+services:
+  nextcloud:
+    image: nextcloud
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    volumes:
+      - nextcloud:/var/www/html
+      - /home/mediacenter/drive:/mnt/drive
+
+volumes:
+  nextcloud:

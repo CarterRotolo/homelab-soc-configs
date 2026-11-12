@@ -1,0 +1,13 @@
+services:
+  navidrome:
+    image: navidrome/navidrome:latest
+    user: 1000:1000 # must own the data folder and be able to read music folder(s). See Permissions below
+    ports:
+      - "4533:4533"
+    restart: unless-stopped
+    environment:
+      ND_JELLYFIN_ENABLED: "true"
+      ND_JELLYFIN_AUTODISCOVERY: "true"
+    volumes:
+      - "/home/mediacenter/navidrome_files:/data"
+      - "/home/mediacenter/drive/Music:/music:ro"
